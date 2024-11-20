@@ -4,11 +4,12 @@ Installez un serveur web.
 
 Copiez index.html à la racine de votre site.
 
-Allez dans le sous-répertoire serveur puis installez librairies php requises:
-`composer install`
+```bash
+npm install
+```
 
-Démarrez votre serveur PHP webSocket:
-`php server.php`
+Démarrez votre serveur JS webSocket:
+`node serveur/server`
 
 Ce serveur écoutera en permanence sur le port 8080.
 
